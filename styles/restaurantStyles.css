@@ -1,0 +1,35 @@
+header, footer {
+	background-color: #E7CFCB;
+	color: #fef9ff;
+	height: 100px;
+	text-align: center;
+	padding: 30px 10px 30px 10px;
+}
+
+nav a {
+	background-color: #FEFEFA;
+	color: #fef9ff;
+	padding: 8px;
+	border: thin solid #FFFFF0;
+	text-align: center;
+	width: 100px;
+	
+}
+
+nav a:hover{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:active {
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: gray;
+	text-decoration: none;
+}
+
+
+
+
