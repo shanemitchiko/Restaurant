@@ -6,13 +6,18 @@ header, footer {
 	padding: 30px 10px 30px 10px;
 }
 
+nav {
+	text-align: center;
+}
+
 nav a {
 	background-color: #FEFEFA;
 	color: #fef9ff;
 	padding: 8px;
 	border: thin solid #FFFFF0;
 	text-align: center;
-	width: 100px;
+	width: 100%;
+	display:block;
 	
 }
 
