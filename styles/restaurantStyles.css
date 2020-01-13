@@ -1,9 +1,16 @@
 header, footer {
 	background-color: #E7CFCB;
 	color: #fef9ff;
-	height: 100px;
 	text-align: center;
 	padding: 30px 10px 30px 10px;
+}
+
+header {
+	height: 100px;
+}
+
+footer {
+	height:120px;
 }
 
 nav {
@@ -35,6 +42,8 @@ nav a:visited {
 	text-decoration: none;
 }
 
-
+#tabs {
+	border: none;
+}
 
 
