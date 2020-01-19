@@ -3,7 +3,7 @@
 <head>
 	<title>Contact Us</title>
 
-    <!-- Required meta tags -->
+  <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,10 +19,6 @@
 	<!-- Font Awesome -->
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-  <!-- Custom Javascript -->
-  <script src="contact.js"></script>
-
-
 <style>
 	body {
 		background-color: #FFF5EE;
@@ -33,7 +29,7 @@
 			font-size: 3rem;
 			text-align: center;
   }
-  
+
   h5 {
       color: #fef9ff;
   }
@@ -52,13 +48,13 @@
 
 	.carousel-inner{
     	height: 100px;
-	} 
+  } 
 </style>
 
 <body>
 <main>
 	<header>
-		<h1>Surf Club</h1>
+		<h1>The Surf Club</h1>
 	</header>
 
 <div > 
@@ -71,7 +67,7 @@
 
 <!-- EDIT  -->
 <section>
- <form class="d-flex flex-column align-items-left mx-3 my-3" action="contact.html" action="GET" name="contact">
+ <form class="d-flex flex-column align-items-left mx-3 my-3" action="contact.html" action="GET" name="contact" id="checkValidation">
        <div class="forms row form-group form-check form-check-inline">
             <label for="name" class="col-4 font-weight-bold">Name:</label>
             <input class="col-8 form-control" type="text" name="name" required/>
@@ -81,7 +77,7 @@
             <input class="col-8 form-control" type="email" name="email" required/>
       </div>
       <div class="forms row form-group form-check form-check-inline">
-                <label class="col-4 font-weight-bold">Phone:</label>
+                <label class="col-4">Phone:</label>
                 <input class="col-8 form-control" type="text" name="phone" required/>
             </div>
             <div class="forms row form-group form-check form-check-inline">
@@ -105,7 +101,7 @@
                 </div>
             </div>
             <div id="contactDay" class="forms row form-group form-check form-check-inline">
-                <label class="col-4 form-check-label font-weight-bold">Best days to contact you:</label>
+                <label class="col-4 form-check-label">Best days to contact you:</label>
                 <div class="checkbox forms-legend col-8 form-control">
                     <input class="form-check-input" type="checkbox" name="availability" value="mon"/>M
                     <input class="form-check-input" type="checkbox" name="availability" value="tue"/>T
@@ -115,11 +111,7 @@
                 </div>
             </div>
             <div>
-
-                <!-- validated by form.js -->
-                <input type="submit" onclick="Send(); return false;" />
-                <!-- EDIT^^ -->
-            
+                <input type="submit" />
             </div>
         </form>
 </section>
@@ -134,19 +126,19 @@
     <div class="carousel-item active">
       <div class="carousel-img py-2" style="background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80)">
       	<h5>New location opening!</h5>
-      		<p>Coming to Long Beach in Summer 2020!</p>
+      		<p class="carousel-text">Coming to Long Beach in Summer 2020!</p class="carousel-text">
       </div>
     </div>
     <div class="carousel-item">
       <div class="carousel-img py-2" style="background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80)">
       	<h5>New seasonal menu!</h5>
-      		<p>Yuca Tots, Fish Tacos, Gemelli Kale Pesto & more!</p>
+      		<p class="carousel-text">Yuca Tots, Fish Tacos, Gemelli Kale Pesto & more!</p>
       </div>
     </div>
     <div class="carousel-item">
       <div class="carousel-img py-2" style="background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80)">
       	<h5>Drink of the Month!</h5>
-      		<p>SC Special Brew</p>
+      		<p class="carousel-text">SC Special Brew</p>
       </div>
     </div>
   </div>
@@ -167,6 +159,7 @@
 </footer>
 
 <!-- Javascript -->
+<script src="./scripts/contact.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

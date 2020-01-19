@@ -30,7 +30,7 @@
 			text-align: center;
 		}
 
-		p {
+		#description {
 			text-align: center;
 			color:#696969; 
 		}
@@ -54,6 +54,7 @@
 			font-size: 2rem;
 			font-family:'Lobster', cursive;
 			font-weight: 100;
+			text-align: center;
 		}
 
 		#description {
@@ -61,25 +62,9 @@
 			text-align: center;
 		}
 
-		.carousel-inner{
+		.carousel-inner {
     		height: 100px;
 		} 
-
-		table {
-        	border: 2px solid black;
-      	}
-      	tr:nth-child(2n + 1) {
-        	background-color: #f2f3f4;
-      	}
-      	tr:nth-child(2n) {
-        	background-color: #98ff98;
-      	}
-      	td {
-        	border: 1px solid #f2f3f4;
-        	padding: 0.2rem 1rem;
-      	}
-		
-
 	</style>
 
 </div>
@@ -90,13 +75,12 @@
 
 <main>
 	<header>
-		<h1>Surf Club</h1>
+		<h1>The Surf Club</h1>
 	</header>
 
 
 <div > 
 	<nav id="tabs" class="nav nav-tabs row justify-content-center py-3">
-		<button class="nav-tabs"></button>
 		<p class="nav-item col"><a href="Restaurant.html"><i class="fa fa-home fa-lg fa-1.5x"></i></a></p>
 		<p class="nav-item col"><a href="menu.html">Menu</a></p>
 		<p class="nav-item col"><a href="contact.html"><span>Contact Us</span></a></p>	
@@ -131,19 +115,19 @@
     <div class="carousel-item active">
       <div class="carousel-img py-2" style="background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80)">
       	<h5>New location opening!</h5>
-      		<p>Coming to Long Beach in Summer 2020!</p>
+      		<p p class="carousel-text">Coming to Long Beach in Summer 2020!</p>
       </div>
     </div>
     <div class="carousel-item">
       <div class="carousel-img py-2" style="background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80)">
       	<h5>New seasonal menu!</h5>
-      		<p>Yuca Tots, Fish Tacos, Gemelli Kale Pesto & more!</p>
+      		<p class="carousel-text">Yuca Tots, Fish Tacos, Gemelli Kale Pesto & more!</p>
       </div>
     </div>
     <div class="carousel-item">
       <div class="carousel-img py-2" style="background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80)">
       	<h5>Drink of the Month!</h5>
-      		<p>SC Special Brew</p>
+      		<p class="carousel-text">SC Special Brew</p"carousel-text">
       </div>
     </div>
   </div>
