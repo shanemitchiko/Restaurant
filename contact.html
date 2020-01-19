@@ -58,14 +58,13 @@
 	</header>
 
 <div > 
-	<nav id="tabs" class="nav nav-tabs row justify-content-center py-3">
-		<p class="nav-item col"><a href="Restaurant.html"><i class="fa fa-home fa-lg fa-1.5x"></i></a></p>
-		<p class="nav-item col"><a href="menu.html">Menu</a></p>
-		<p class="nav-item col"><a href="contact.html"><span>Contact Us</span></a></p>	
-	</nav>
+	<ul id="tabs" class="nav nav-pills row justify-content-center py-3">
+		<li class="nav-item col"><a class="nav-link" href="Restaurant.html"><i class="fa fa-home fa-lg fa-1.5x"></i></a></li>
+		<li class="nav-item col"><a class="nav-link" href="menu.html">Menu</a></li>
+		<li class="nav-item col"><a class="nav-link active" href="contact.html"><span>Contact Us</span></a></li>	
+	</ul>
 </div>
 
-<!-- EDIT  -->
 <section>
  <form class="d-flex flex-column align-items-left mx-3 my-3" action="contact.html" action="GET" name="contact" id="checkValidation">
        <div class="forms row form-group form-check form-check-inline">
@@ -78,7 +77,7 @@
       </div>
       <div class="forms row form-group form-check form-check-inline">
                 <label class="col-4">Phone:</label>
-                <input class="col-8 form-control" type="text" name="phone" required/>
+                <input class="col-8 form-control" type="text" name="phone"/>
             </div>
             <div class="forms row form-group form-check form-check-inline">
                 <label class="col-4 font-weight-bold">Reason for Inquiry:</label>

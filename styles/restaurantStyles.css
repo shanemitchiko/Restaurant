@@ -13,31 +13,29 @@ footer {
 	height:120px;
 }
 
-nav {
+ul {
 	text-align: center;
 }
 
-nav a {
+ul a {
 	background-color: #FEFEFA;
 	color: #fef9ff;
 	padding: 8px;
 	border: thin solid #FFFFF0;
 	text-align: center;
 	width: 100%;
-	/* display:block; */
-	
 }
 
-nav a:hover{
+ul a:hover{
 	font-weight: bold;
 	text-decoration: none;
 }
 
-nav a:active {
-	text-decoration: none;
+.active {
+	background-color: #35D0C7 !important;
 }
 
-nav a:visited {
+ul a:visited {
 	color: gray;
 	text-decoration: none;
 }
